@@ -1,6 +1,6 @@
 export type Settings = {
   token: string
-  notifications: []
+  tasks: string[]
 }
 
 const loadSettings = (): Settings => {
